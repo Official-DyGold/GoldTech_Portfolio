@@ -1037,6 +1037,21 @@ body.no-scroll {
     .contactus-form {
         width: 100%;
     }
+    .contactus-grid {
+        flex-direction: column;
+        gap: 2rem;
+        align-items: stretch;
+    }
+    .contactus-info,
+    .contactus-form {
+        max-width: 100%;
+        width: 100%;
+    }
+    .contactus-row {
+        flex-direction: column;
+        gap: 1.2rem;
+        align-items: flex-start;
+  }
 
 }
 
