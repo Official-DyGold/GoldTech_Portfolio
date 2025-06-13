@@ -1037,6 +1037,25 @@ body.no-scroll {
     .contactus-form {
         width: 100%;
     }
+}
+
+@media screen and (max-width: 480px) {
+    .navbar {
+        padding: 1rem 4%;
+    }
+
+    .logo a {
+        font-size: 1.5rem;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .section-title {
+        font-size: 1.8rem;
+    }
+
     .contactus-grid {
         flex-direction: column;
         gap: 2rem;
@@ -1046,13 +1065,13 @@ body.no-scroll {
     .contactus-form {
         max-width: 100%;
         width: 100%;
+        padding: 1rem 0.5rem;
     }
     .contactus-row {
         flex-direction: column;
-        gap: 1.2rem;
+        gap: 1rem;
         align-items: flex-start;
-  }
-
+    }
 }
 
 @media screen and (max-width: 480px) {

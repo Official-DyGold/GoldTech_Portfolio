@@ -4,19 +4,19 @@ const contactInfo = [
   {
     iconClass: "fa fa-map-marker",
     iconCircle: 'address-circle',
-    label: "Address",
+    label: "Address:",
     value: "Sagamu, Ogun State, Nigeria"
   },
   {
     iconClass: "fa fa-envelope",
     iconCircle: 'email-circle',
-    label: "Email",
-    value: "emmanueld1topthings@gmail.com"
+    label: "Email: @gmail.com",
+    value: "emmanueld1topthings"
   },
   {
     iconClass: "fa fa-phone",
     iconCircle: 'phone-circle',
-    label: "Phone",
+    label: "Phone:",
     value: "+234 703 345 4994"
   },
 ];
@@ -37,7 +37,7 @@ function ContactUS() {
                     <i className={item.iconClass}></i>
                   </span>
                   <div>
-                    <span className="contact-label">{item.label}:</span>
+                    <span className="contact-label">{item.label}</span>
                     <div className="contact-address-detail">{item.value}</div>
                   </div>
                 </li>
