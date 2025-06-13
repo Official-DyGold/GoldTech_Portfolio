@@ -8,7 +8,7 @@ This is a personal portfolio project built with React and TypeScript. It showcas
   - **components/**: Contains reusable components for the portfolio.
     - **Header.tsx**: Renders the header section with navigation.
     - **Footer.tsx**: Renders the footer section with copyright and social links.
-    
+
   - **App.tsx**: Main application component that structures the layout.
   - **index.tsx**: Entry point of the application.
   - **styles/**: Contains CSS styles for the application.
@@ -22,7 +22,7 @@ This is a personal portfolio project built with React and TypeScript. It showcas
 
 1. Clone the repository:
    ```
-   git clone <repository-url>
+   git clone "https://github.com/Official-DyGold/GoldTech_Portfolio.git"
    ```
 
 2. Navigate to the project directory:

@@ -1,0 +1,66 @@
+return (
+    <section id="about" className="section active">
+        <div className="container">
+            <div className="aboutus-flex">
+                <h2 className="section-title">ABOUT US</h2>
+                <div className="section-divider"></div>
+                <div className="aboutus-container">
+                    <div className="aboutus-left">
+                        <div className="profile-flex">
+                            <img src={myImage} alt="Temidayo Emmanuel Olagunju" className="profile-big-img" />
+                            <div className="profile-details">
+                                <h3>Profile</h3>
+                                <div className="about-underline"></div>
+                                <p><span>Name:</span> Temidayo Emmanuel Olagunju</p>
+                                <p><span>Profile:</span> Software Engineering </p>
+                                <p><span>Email:</span> emmanueld1topthings@gmail.com</p>
+                                <p><span>Location:</span> Sagamu, Ogun State, Nigeria</p>
+                                <p><span>Phone Number:</span> +234 703 345 4994</p>
+                                <div className="skills">
+                                <h3>Programming Skill</h3>
+                                <div className="about-underline"></div>
+                                <ul>
+                                    <li>
+                                        <span>Python</span>
+                                        <div className="progress-bar"><div style={{width: "75%"}}></div></div>
+                                        <span className="skill-percentage">75%</span>
+                                    </li>
+                                    <li>
+                                        <span>JavaScript</span>
+                                        <div className="progress-bar"><div style={{width: "70%"}}></div></div>
+                                        <span className="skill-percentage">70%</span>
+                                    </li>
+                                    <li>
+                                        <span>Java</span>
+                                        <div className="progress-bar"><div style={{width: "55%"}}></div></div>
+                                        <span className="skill-percentage">55%</span>
+                                    </li>
+                                    <li>
+                                        <span>C++</span>
+                                        <div className="progress-bar"><div style={{width: "52%"}}></div></div>
+                                        <span className="skill-percentage">52%</span>
+                                    </li>
+                                </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="aboutus-right">
+                        <h3>Summary</h3>
+                        <div className="about-underline"></div>
+                        <div className="section-summary">
+                            <ul className="aboutme-list">
+                                <li>We are a team of passionate individuals dedicated to providing the best service possible. Our mission is to deliver quality and excellence in everything we do.</li>
+                                <li>With years of experience in the industry, we pride ourselves on our commitment to customer satisfaction and our ability to adapt to the ever-changing tech community.</li>
+                                <li>Skilled in building robust backend systems, scalable APIs, cloud-native solutions, and integrating machine learning capabilities.</li>
+                                <li>Proficient in Python, Expressjs, Nodejs, MongoDB, PostgreSQL, and AWS (EC2, S3, Lambda, RDS), with strong DevOps experience using Docker, GitHub Actions, and CI/CD pipelines.</li>
+                                <li>Passionate about automation, API security, cloud optimization, and solving real-world problems with efficient, well-architected backend and machine learning systems.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  )
+}
